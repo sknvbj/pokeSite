@@ -4,12 +4,51 @@
 <head> <!-- meta data - things user doesnt need to see-->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>pokeSite</title>
+  <title>animeFite</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body> <!-- main info -->
-  <h1>Welcome to pokeSite.com</h1>
+  <h1>animeFite.com</h1>
+
+  <h2>Welcome to animeFite.com</h2>
+  <p>Please enter your name:</p>
+  <input type="text" placeholder="Name" required>
+  <p>What is your favourite anime?: </p>
+  <input type="text" placeholder="Favourite Anime" required>
+  <p>Who is your favourite anime character?: </p>
+  <input type="text" placeholder="Favourite Anime Character" required>
+  
+  <h3>If these characters were to fight, who wins?:</h3>
+  <p>Goku v Naruto:</p>
+  <label for="goku">
+    <input id="goku" value="goku" type="radio" name="goku v naruto">Goku
+  </label>
+  <label for="naruto">
+    <input id="naruto" value="naruto" type="radio" name="goku v naruto">Naruto
+  </label>
+  <p>Sasuke v Ichigo: </p>
+  <label for="sasuke">
+    <input id="sasuke" value="sasuke" type="radio" name="sasuke v ichigo">Sasuke
+  </label>
+  <label for="ichigo">
+    <input id="ichigo" value="ichigo" type="radio" name="sasuke v ichigo">Ichigo
+  </label>
+  <p>Kaneki v Eren:</p>
+  <label for="kaneki">
+    <input id="kaneki" value="kaneki" type="radio" name="kaneki v eren">Kaneki
+  </label>
+  <label for="eren">
+    <input id="eren" value="eren" type="radio" name="kaneki v eren">Eren
+  </label>
+
+  <div>
+    <img src="https://preview.redd.it/uyyqq7ibfcs71.png?width=960&crop=smart&auto=webp&s=a0a7e44843def74a22cf3a1ad50007b014033beb" 
+    alt="eren v kaneki poster">
+  </div>
+  <button type="submit">Submit</button>
+
+
 </body>
 
 </html>
