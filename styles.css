@@ -1,0 +1,39 @@
+body {
+    background-color: crimson;
+}
+h1{
+    color:goldenrod;
+    text-decoration: underline;
+    text-align: center;
+}
+h1:hover{
+    color:mediumpurple
+}
+
+h2{
+color: silver;
+text-decoration: underline;
+}
+p{
+    color:goldenrod;
+}
+h3{
+    color:silver;
+    text-decoration: underline;
+}
+form > p {
+    color:goldenrod;
+}
+form > div > img {
+    height:150px;
+    width: 300px;
+}
+input[name="goku v naruto"]{
+    accent-color: purple;
+}
+input[name="sasuke v ichigo"]{
+    accent-color: purple;
+}
+input[name="kaneki v eren"]{
+    accent-color: purple;
+}

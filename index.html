@@ -5,13 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>animeFite</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="styles.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body> <!-- main info -->
-  <h1>animeFite.com</h1>
+  <header>
+    <h1>animeFite.com</h1>
+    <h2>Welcome to animeFite.com</h2>
+  </header>
 
-  <h2>Welcome to animeFite.com</h2>
+  
   <p>Please enter your name:</p>
   <input type="text" placeholder="Name" required>
   <p>What is your favourite anime?: </p>
@@ -20,13 +23,19 @@
   <input type="text" placeholder="Favourite Anime Character" required>
   
   <h3>If these characters were to fight, who wins?:</h3>
-  <p>Goku v Naruto:</p>
+
+  <form action ="#">
+    <p>Goku v Naruto:</p>
   <label for="goku">
     <input id="goku" value="goku" type="radio" name="goku v naruto">Goku
   </label>
   <label for="naruto">
     <input id="naruto" value="naruto" type="radio" name="goku v naruto">Naruto
   </label>
+  <div>
+    <img src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/11/narutohoku3.jpg" 
+    alt="goku v naruto poster">
+  </div>
   <p>Sasuke v Ichigo: </p>
   <label for="sasuke">
     <input id="sasuke" value="sasuke" type="radio" name="sasuke v ichigo">Sasuke
@@ -34,6 +43,10 @@
   <label for="ichigo">
     <input id="ichigo" value="ichigo" type="radio" name="sasuke v ichigo">Ichigo
   </label>
+  <div>
+    <img src="https://qph.cf2.quoracdn.net/main-qimg-45a917933064e5b706662daff2af1c90-pjlq" 
+    alt="sasuke v ichigo poster">
+  </div>
   <p>Kaneki v Eren:</p>
   <label for="kaneki">
     <input id="kaneki" value="kaneki" type="radio" name="kaneki v eren">Kaneki
@@ -41,13 +54,14 @@
   <label for="eren">
     <input id="eren" value="eren" type="radio" name="kaneki v eren">Eren
   </label>
-
   <div>
     <img src="https://preview.redd.it/uyyqq7ibfcs71.png?width=960&crop=smart&auto=webp&s=a0a7e44843def74a22cf3a1ad50007b014033beb" 
     alt="eren v kaneki poster">
   </div>
-  <button type="submit">Submit</button>
+</form>
+<button type="submit">Submit</button>
 
+<p>Click <a href="https://coruscating-pastelito-b4c71e.netlify.app/">here</a> if you would like to visit a website about Chelsea FC :)</p>
 
 </body>
 
